@@ -12,7 +12,7 @@ import { BlogsComponent } from './home-page/blogs/blogs.component';
 import { AnnouncementsComponent } from './home-page/announcements/announcements.component';
 import { DealsComponent } from './home-page/deals/deals.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MaterialModule } from 'src/Material.Module';
 
 
 @NgModule({
@@ -31,7 +31,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
