@@ -1,0 +1,26 @@
+.announcement-container {
+
+  max-width: 100%; /* Adjust the size as needed */
+  margin: 0 auto;
+  background-color: #fef8f8;
+  padding: 10px;
+  
+  border-radius: 10px;
+
+}
+
+.announcement-list {
+  list-style-type: none;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.announcement-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.announcement-list li:last-child {
+  border-bottom: none;
+}

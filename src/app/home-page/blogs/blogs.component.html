@@ -1,1 +1,24 @@
-<p>blogs works!</p>
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+
+  <div class="blog-container ">
+    <h1 class="text-center font-weight-bold">Quick reads on personal finance & more</h1>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let blog of blogs">
+        <div class="blog-card">
+          <div class="image-container">
+            <img src="{{ blog.image }}" alt="Blog Image" class="rounded img-fluid">
+              <div class="overlay">
+                <a href="{{ blog.link}}" class="btn btn-light" target="_blank">{{blog.description}}</a>
+  
+                <!-- <button class="btn btn-light btn-colour"></button> -->
+              </div>
+          </div>
+               
+                
+  </div>
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  
