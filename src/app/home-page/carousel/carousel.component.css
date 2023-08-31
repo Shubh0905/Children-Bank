@@ -1,0 +1,20 @@
+
+.Hero-start{
+     background-image: url(../../../assets/KidsBank.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+      background-size: cover;
+      min-height:450px; 
+}
+.insidemask{
+  min-height: inherit;
+}
+
+.mask{
+background-color: rgba(0, 0, 0, 0.6);
+ min-height: inherit;
+}
+
+.mb-3{
+  font-size: 2.5rem;
+}
