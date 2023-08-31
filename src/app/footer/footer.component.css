@@ -1,5 +1,6 @@
 footer {
     background-color: #5a287d;
+    overflow-x: hidden;
 }
 .footer-text {
 text-align: center;
