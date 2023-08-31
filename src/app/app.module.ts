@@ -25,7 +25,7 @@ import { MaterialModule } from 'src/Material.Module';
     OfferingsComponent,
     BlogsComponent,
     AnnouncementsComponent,
-    DealsComponent
+    DealsComponent,
   ],
   imports: [
     BrowserModule,
