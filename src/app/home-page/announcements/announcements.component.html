@@ -1,1 +1,11 @@
-<p>announcements works!</p>
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+
+<div class="announcement-container ">
+  <h1 class="text-center font-weight-bold">Important Announcements</h1>
+  <div class="scrollable-announcements">
+    <ul class="announcement-list">
+      <li *ngFor="let announcement of announcements"><a href="{{announcement.link}}"><h2>{{ announcement.description }}</h2></a></li>
+    </ul>
+  </div>
+</div>
+</div>
