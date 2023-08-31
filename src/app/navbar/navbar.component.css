@@ -3,22 +3,9 @@ nav {
     background-color: #9b59b6; /* Amber Yellowish-Purple Color */
     color: white;
   }
-  
-  /* Style the logo container */
-  .logo-container {
-    display: flex;
-    align-items: center;
-    margin-right: 20px; /* Add spacing between logo and buttons */
-  }
-  
-  /* Style the logo */
-  .logo {
-    width: 30px; /* Adjust the width as needed */
-    height: auto;
-    margin-right: 10px; /* Add spacing between logo and bank name */
-  }
   .logo-text {
-    font-size: 22px; /* Adjust the font size as needed */
+    font-size: 22px;
+    margin-left:10px; /* Adjust the font size as needed */
 }
 .about-link {
     margin-left: 250px; /* Adjust the margin value as needed */
@@ -27,12 +14,6 @@ nav {
 .navbar-nav .nav-link {
     font-size: 18px; /* Adjust the font size for the other links */
 }
-  
-  /* Style the bank name */
-  .bank-name {
-    font-weight: bold;
-  }
-  
   /* Style the list items */
   ul {
     list-style-type: none;
